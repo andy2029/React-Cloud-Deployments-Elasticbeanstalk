@@ -1,0 +1,297 @@
+.landing {
+  text-align: center;
+  padding: 50px 250px;
+}
+
+.landing h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.landing p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin: 0 10px;
+}
+
+.nav-list li button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-list li button:hover {
+  text-decoration: underline;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+.profile {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.profile h2 {
+  text-align: center;
+}
+
+.user-details {
+  margin-top: 20px;
+}
+
+.user-details p {
+  margin-bottom: 10px;
+}
+
+.specials {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.specials h2 {
+  text-align: center;
+}
+
+.farming {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.farming h2 {
+  text-align: center;
+}
+.purchase {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Specials list styling */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  width: 210px;
+  margin:5px;
+  padding: 15px;
+  background-color: #e7e7e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-image {
+  height: 180px;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.garden-image {
+  height: 450px;
+  width: 100%;
+}
+
+/* Shopping cart styling */
+
+.cart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000055;
+  z-index: 10;
+}
+
+.cart-products img {
+  height: 100%;
+  max-width: 180px;
+  min-width: 180px;
+  padding: 5px;
+}
+
+.shopping-cart {
+  width: 60%;
+  height: 90%;
+  margin: 2rem auto;
+  background-color: #eee;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.shopping-cart .header {
+  display: flex;
+  background-color: #4098f5;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.cart-products {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 0;
+  overflow-y: scroll;
+}
+
+.cart-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 20px;
+  gap: 8px;
+  border: 3px solid #eee;
+}
+
+.product-info {
+  flex-basis: 60%
+}
+
+.cart-product select {
+  width: 700px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.cart-logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkout-btn {
+  align-self:last baseline;
+  margin: 1rem 1rem;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 20px;
+  gap: 8px;
+  border: 3px solid #eee;
+}
+
+.right {
+  text-align: end;
+}
+
+.purchase-info {
+  margin-right: 1rem;
+}
+
+/* Styling for App component nav element anchor
+tag*/
+.header nav a {
+  padding: 20px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
